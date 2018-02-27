@@ -5,7 +5,7 @@
 	http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>sample</groupId>
+    <groupId>coach5</groupId>
     <artifactId>make-it-cry</artifactId>
     <name>make-it-cry</name>
 
@@ -61,4 +61,13 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>c86c34775140-releases</name>
+            <url>http://internal-coach-devops.eastasia.cloudapp.azure.com:8083/artifactory/great-company</url>
+        </repository>
+    </distributionManagement>
+
 </project>
